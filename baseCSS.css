@@ -1,0 +1,120 @@
+/* 
+    Created on : Jan 21, 2015, 12:21:37 PM
+    Author     : Lacey Taylor
+*/
+
+html
+{
+    height:100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body
+{
+    height:100%;
+    width: 100%;
+    margin:0px;
+    overflow: hidden;
+    background-color: #000000;
+    color: white;
+}
+
+header
+{
+    display:block;
+    text-align: center;
+    padding: 5px;
+    height: 10%;
+}
+
+#nameImage
+{
+    height:100%;
+}
+
+nav
+{
+    float:left;
+    height: 85%;
+    width: 15%;  
+    text-align: center;
+    padding: 0px;
+    margin:0px;
+}
+
+button
+{
+    border-radius: 0px;
+    font-family: Georgia;
+    height:20%;
+    width:100%;
+    color:white;
+    font-size: 30px;
+    background:#333333;
+    border:none;
+    text-decoration: none;
+}
+
+button:hover
+{
+    background: #000000;
+    color:#cc0000;
+    text-decoration: none;
+}
+
+
+
+#aboutme
+{
+    float:left;
+    height:85%;
+    width:85%;
+    margin:0px;
+    background-color:#cccccc;
+    overflow-y:scroll;
+}
+
+#centerContent
+{
+     float:left;
+    height:85%;
+    width:85%;
+    margin:0px;
+    color:#000000;
+    background-color:#cccccc;
+    overflow-y:scroll;
+}
+
+#personalPic
+{
+
+    height:390px;
+    width:480px;
+    border:#cc0000 solid thin; 
+    margin-top: 5%;
+    margin-left: 32%;
+}
+
+#aboutMeText
+{
+    color:#000000;
+    text-align: center;
+}
+
+h1,h3
+{
+    color: #cc0000;
+    text-align: center;
+	font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	text-decoration: underline;
+}
+
+footer
+{
+    clear:both;
+    display:block;
+    text-align: center;
+    height: 5%;
+    color: #cc0000;
+}
